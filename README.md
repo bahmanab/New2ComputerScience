@@ -96,8 +96,8 @@ I use this list which is initially created by  [John Washam](https://www.linkedi
 ## Interview Process & General Interview Prep
 
 - [ ] Videos:
-    - [ ] https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be
-    - [ ] https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be
+    - [x] https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be
+    - [x] https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be
     - [ ] https://www.youtube.com/watch?v=8npJLXkcmu8
 
 - [ ] Articles:
@@ -134,18 +134,18 @@ You can use a language you are comfortable in to do the coding part of the inter
 You need to be very comfortable in the language, and be knowledgeable. Read more (rescued from the lost web):
     - https://web.archive.org/web/20160204193730/http://blog.codingforinterviews.com/best-programming-language-jobs/
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+I mostly focus on Python since I want to grab major concepts in a limited time. There are a few books involved, see the bottom.
 
 - [ ] **How computers process a program:**
     - [ ] https://www.youtube.com/watch?v=42KTvGYQYnA
     - [ ] https://www.youtube.com/watch?v=Mv2XQgpbTNE
 
-- [ ] **How floating point numbers are stored:**
-    - [ ] simple 8-bit: http://math.stackexchange.com/questions/301435/fractions-in-binary
-    - [ ] 32 bit: https://www.youtube.com/watch?v=ji3SfClm8TU
-    - [ ] 64 bit: https://www.youtube.com/watch?v=50ZYcZebIec
+- [x] **How floating point numbers are stored:**
+    - [x] simple 8-bit: http://math.stackexchange.com/questions/301435/fractions-in-binary
+    - [x] 32 bit: https://www.youtube.com/watch?v=ji3SfClm8TU
+    - [x] 64 bit: https://www.youtube.com/watch?v=50ZYcZebIec
 
-- [ ] **Computer Arch Intro:**
+- [x] **Computer Arch Intro:**
     (first video only - interesting but not required) https://www.youtube.com/watch?v=zLP_X4wyHbY&list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq&index=1
 
 - [ ] **C**
