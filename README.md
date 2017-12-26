@@ -286,43 +286,43 @@ Then test it out on a computer to make sure it's not buggy from syntax.
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
 
 - ### Linked Lists
-    - [ ] Description:
-        - [ ] https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists
-        - [ ] CS 61B - Linked lists: https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5
+    - [x] Description:
+        - [x] https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists
+        - [x] CS 61B - Linked lists: https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5
     - [ ] C Code: https://www.youtube.com/watch?v=QN6FPiD0Gzo
             - not the whole video, just portions about Node struct and memory allocation.
-    - [ ] Linked List vs Arrays:
+    - [x] Linked List vs Arrays:
         - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays
         - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays
-    - [ ] why you should avoid linked lists:
+    - [x] why you should avoid linked lists:
         - https://www.youtube.com/watch?v=YQs6IC-vgmo
     - [ ] Gotcha: you need pointer to pointer knowledge:
         (for when you pass a pointer to a function that may change the address where that pointer points)
         This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
         - https://www.eskimo.com/~scs/cclass/int/sx8.html
-    - [ ] implement (I did with tail pointer & without):
-        - [ ] size() - returns number of data elements in list
-        - [ ] empty() - bool returns true if empty
-        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove front item and return its value
-        - [ ] push_back(value) - adds an item at the end
-        - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get value of front item
-        - [ ] back() - get value of end item
-        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-        - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-        - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
-    - [ ] Doubly-linked List
+    - [x] implement (I did with tail pointer & without):
+        - [x] size() - returns number of data elements in list
+        - [x] empty() - bool returns true if empty
+        - [x] value_at(index) - returns the value of the nth item (starting at 0 for first)
+        - [x] push_front(value) - adds an item to the front of the list
+        - [x] pop_front() - remove front item and return its value
+        - [x] push_back(value) - adds an item at the end
+        - [x] pop_back() - removes end item and returns its value
+        - [x] front() - get value of front item
+        - [x] back() - get value of end item
+        - [x] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
+        - [x] erase(index) - removes node at given index
+        - [x] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
+        - [x] reverse() - reverses the list
+        - [x] remove_value(value) - removes the first item in the list with this value
+    - [x] Doubly-linked List
         - Description: https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists
         - No need to implement
 
 - ### Stack
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks
-    - [ ] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html
-    - [ ] Will not implement. Implementing with array is trivial.
+    - [x] https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks
+    - [x] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html
+    - [x] Will not implement. Implementing with array is trivial.
 
 - ### Queue
     - [ ] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html
@@ -347,8 +347,8 @@ Then test it out on a computer to make sure it's not buggy from syntax.
     
 - ### Hash table
     - [ ] Videos:
-        - [ ] Hashing with Chaining: https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8
-        - [ ] Table Doubling, Karp-Rabin: https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+        - [x] Hashing with Chaining: https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8
+        - [x] Table Doubling, Karp-Rabin: https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
         - [ ] Open Addressing, Cryptographic Hashing: https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
         - [ ] PyCon 2010: The Mighty Dictionary: https://www.youtube.com/watch?v=C4Kc8xzcA68
         - [ ] (Advanced) Randomization: Universal & Perfect Hashing: https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11
@@ -376,17 +376,17 @@ Then test it out on a computer to make sure it's not buggy from syntax.
 ## More Knowledge
 
 - ### Endianness
-    - [ ] https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html
-    - [ ] https://www.youtube.com/watch?v=JrNF0KRAlyo
-    - [ ] https://www.youtube.com/watch?v=oBSuXP-1Tc0
+    - [x] https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html
+    - [x] https://www.youtube.com/watch?v=JrNF0KRAlyo
+    - [x] https://www.youtube.com/watch?v=oBSuXP-1Tc0
         - Very technical talk for kernel devs. Don't worry if most is over your head.
         - The first half is enough.
 
 - ### Binary search
-    - [ ] https://www.youtube.com/watch?v=D5SrAga1pno
-    - [ ] https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search
+    - [X] https://www.youtube.com/watch?v=D5SrAga1pno
+    - [X] https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search
     - [ ] detail: https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/
-    - [ ] Implement:
+    - [x] Implement:
         - binary search (on sorted array of integers)
         - binary search using recursion
 
